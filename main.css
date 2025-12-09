@@ -1,3 +1,31 @@
 h1 {
     color: red;
 }
+
+
+.first-a{
+    color: #FF6107;
+    text-decoration: none;
+    width: 117px;
+    height: 38px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+}
+.Business-texts{
+    font-size: 44px;
+    font-weight: bold;
+    width: 534px;
+    height: 154px;
+}
+.Business-mini-texts{
+    width: 428px;
+    font-size: 18px;
+    height: 154px;
+}
