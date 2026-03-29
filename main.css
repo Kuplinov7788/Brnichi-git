@@ -1,3 +1,124 @@
 h1 {
     color: red;
 }
+.container {
+  width: 80%;             
+  margin: 0 auto;         
+  padding: 20px;            
+}
+
+
+.first-a{
+    color: #FF6107;
+    text-decoration: none;
+    font-size: 20px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Business-texts{
+    font-size: 44px;
+    font-weight: bold;
+    width: 534px;
+    height: 154px;
+}
+.Business-mini-texts{
+    width: 428px;
+    font-size: 20px;
+    text-align: center;
+}
+.circle-2{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 364px;
+    height: 415px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+     transition: all ease 0.5s;
+    &:hover{
+    transition: all ease 0.4s;
+    background-color: #F5F5F5CC;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    }
+    
+}
+.business-supports-text{
+    font-size: 30px;
+    margin: 0 0 12px;
+    font-weight: 600;
+}
+.supports-text{
+    width: 350px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.blink-p{
+    color: #124F48;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    &:hover{
+        color: white;
+    }
+}
+
+.little-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    align-items: center;
+    width: 203px;
+    height: 57px;
+    &:hover{
+        background-color: #FF823B;
+        border-radius: 20px;
+        width: 203px;
+        
+    }
+}
+.bg-light-yellow-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF7CA;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+}
+.bg-light-green-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DBFFE9;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+}
+.bg-light-red-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE9E0;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+}
